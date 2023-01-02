@@ -1,45 +1,43 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
 body {
 	
 	margin: auto;
-	
-	max-width: 48rem;
-	text-align: left;
-	background-color: #202427;
+	max-width: 600px;
+	background-color: #1c212b;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: rgb(187, 187, 187);
+	color: #ffffffee;
 }
+
+
 h1{
 	font-size: xx-large;
 	letter-spacing: 2px;
 	padding: 2rem 0;
 
 }
-h2,
+h2{
+	font-size: 18px;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+
+
+}
 h3,
 h4,
 h5,
 h6,
 strong,
 b {
-	color:  rgb(187, 187, 187);
+
 }
-a {
-	color: #6994da;
+
+p{
+	font-size: 14px;
 }
-nav a {
-	/* margin-right: 10px; */
-}
-textarea {
-	width: 100%;
-	font-size: 16px;
-}
+
+
+
 input {
 	font-size: 16px;
 }
@@ -49,10 +47,7 @@ content {
 table {
 	width: 100%;
 }
-img {
-	max-width: 100%;
-	height: auto;
-}
+
 code {
 	padding: 2px 5px;
 	background-color: #f2f2f2;

@@ -1,14 +1,12 @@
 ---
 import NavigationLink from "./NavigationLink.astro";
-import Name from "./Name.astro";
+import Logo from "./Logo.astro";
 ---
 
-<header>
-  <nav class="w-full flex">
-    <Name />
-    <div class="">
-      <NavigationLink href="/projects">Projects</NavigationLink>
-      <NavigationLink href="/blog">Blog</NavigationLink>
-    </div>
-  </nav>
-</header>
+<nav class="pt-4">
+  <Logo />
+  <div class="float-right">
+    <NavigationLink href="/projects">Projects</NavigationLink>
+    <NavigationLink href="/blog">Blog</NavigationLink>
+  </div>
+</nav>

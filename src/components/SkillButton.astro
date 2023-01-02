@@ -1,0 +1,21 @@
+---
+const { skill, icon } = Astro.props;
+---
+
+<div class="skills w-36 h-10 rounded-md flex justify-start items-center pl-3">
+  <img src={`/skill-icons/${icon}`} />
+  {skill}
+</div>
+
+<style>
+  .skills {
+    background-color: rgb(55, 58, 68);
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 40px;
+  }
+  img {
+    height: 20px;
+    padding-right: 10px;
+  }
+</style>

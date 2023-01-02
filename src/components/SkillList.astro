@@ -1,10 +1,14 @@
 ---
+import SkillButton from "./SkillButton.astro";
 ---
 
 <h1>Skills</h1>
-<p>
-  Hi! I am a software engineer from Singapore with a passion to learn new
-  technologies and work on projects. I also loves to practice solving coding
-  problems from sites such as Leetcode. Other than programming, he likes to play
-  video games such as Maplestory.
-</p>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+  <SkillButton skill="Python" icon="python.svg" />
+  <SkillButton skill="Java" icon="java.svg" />
+  <SkillButton skill="JavaScript" icon="javascript.svg" />
+  <SkillButton skill="HTML" icon="html.svg" />
+  <SkillButton skill="CSS" icon="css.svg" />
+  <SkillButton skill="React" icon="react.svg" />
+  <SkillButton skill="App Dev" icon="androidstudio.svg" />
+</div>

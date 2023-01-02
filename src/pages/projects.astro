@@ -1,7 +1,23 @@
 ---
 import Base from "../layouts/Base.astro";
+import ProjectCard from "../components/ProjectCard.astro";
 ---
 
 <Base>
-  <p>projects!</p>
+  <h1>Projects</h1>
+  <h2 class="pb-10">These are some of my projects, click to view them!</h2>
+  <div class="grid sm:grid-cols-2 justify-items-center gap-y-10">
+    <ProjectCard
+      src="all_crypto.png"
+      title="All Crypto React Website"
+      description="Crypto website created using React with data extracted from CoinGecko API and news API"
+      link="https://allcrypto.netlify.app/"
+    />
+    <ProjectCard
+      src="discord_bot.png"
+      title="Discord Bot made with Python"
+      description="Custom discord bot with multiple features coded in Python"
+      link=""
+    />
+  </div>
 </Base>
